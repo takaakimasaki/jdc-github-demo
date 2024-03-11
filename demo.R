@@ -34,3 +34,4 @@ ref_world %>%
   arrange(-SM.POP.REFG) %>%
   mutate(rank = seq(1:dim(.)[1])) %>%
   filter(rank < 10)
+
