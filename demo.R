@@ -6,3 +6,5 @@ pacman::p_load(dplyr, tidyverse, WDI, ggplot2, ggthemes, here)
 WDI::WDIsearch('refugee*')
 dat = WDI::WDI(indicator=c('SM.POP.REFG'), start=1960, end=2021)
 dat %>% write_csv(here::here("","data","refugee_stats.csv"))
+
+#test
